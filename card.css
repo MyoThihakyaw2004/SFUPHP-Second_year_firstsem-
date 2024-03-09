@@ -1,0 +1,117 @@
+
+.animation {
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+
+.card1 {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 15px; 
+    overflow: hidden;
+    background: linear-gradient(45deg, #48474a, #48474a);
+    color: #fff; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-img-top {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+
+.card1:hover {
+    transform: translateY(-10px) scale(1.03); 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card1:hover .card-img-top {
+    opacity: 0.8;
+}
+
+
+.card-body {
+    transition: background-color 0.3s ease;
+}
+
+
+.card-footer {
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card-title {
+    transition: transform 0.3s ease;
+}
+
+.card1:hover .card-title {
+    transform: scale(1.1);
+    color: #ffeb3b; 
+}
+.card-teenager {
+    border: none;
+    background-color: #3498db; 
+    color: #fff; 
+    border-radius: 15px; 
+    perspective: 1000px;
+    overflow: hidden;
+  
+  }
+  
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+  }
+ 
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    display: none; 
+  }
+  
+  
+  .card-teenager:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .card-teenager .card-title {
+    font-size: 1.25rem;
+    font-weight: bold; 
+  }
+  
+  
+  .card-teenager:hover .card-title {
+    transform: scale(1.05);
+  }
+  
+  .my-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    min-height: 100vh;       
+}
+
+.safety-section {
+    background-color: #333; 
+  }
+  .font{
+    color: white;
+  }
+  

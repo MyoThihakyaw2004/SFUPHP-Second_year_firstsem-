@@ -1,0 +1,32 @@
+    .profile-card {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .profile-header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+
+    .profile-details {
+        padding: 20px;
+    }
+
+    .profile-details h5 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .profile-details p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .action-buttons a {
+        margin-right: 10px;
+    }

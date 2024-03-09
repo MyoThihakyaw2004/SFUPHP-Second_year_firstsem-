@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+.profile-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.profile-form-container h1 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.form-label {
+    font-weight: bold;
+}
+.submit-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
